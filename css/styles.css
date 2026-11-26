@@ -144,19 +144,14 @@ p { margin: 0; }
 .hero-frame {
   margin: 0;
   position: relative;
-  padding: 12px;
-  background: var(--cream);
-  border-radius: 32px 32px 88px 32px;
-  box-shadow: var(--shadow);
 }
 .hero-frame img {
   width: 100%;
-  height: min(68vh, 580px);
+  height: min(72vh, 640px);
   object-fit: cover;
-  object-position: 50% 40%;
-  border-radius: 22px 22px 72px 22px;
+  border-radius: 28px 28px 80px 28px;
+  box-shadow: var(--shadow);
 }
-.hero-photo { object-position: 50% 38%; }
 .hero-frame figcaption {
   position: absolute;
   left: -28px;
