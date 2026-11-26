@@ -152,6 +152,7 @@ p { margin: 0; }
   border-radius: 28px 28px 80px 28px;
   box-shadow: var(--shadow);
 }
+.hero-photo { object-position: 50% 18%; }
 .hero-frame figcaption {
   position: absolute;
   left: -28px;
@@ -229,6 +230,7 @@ p { margin: 0; }
 }
 .card:hover, .card:focus-visible { border-color: var(--ink); outline: none; }
 .card img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; background: #e7e0d4; }
+.photo-lana { object-position: 50% 42%; }
 .card-wide { grid-column: span 2; }
 .card-wide img { aspect-ratio: 16 / 11; }
 .card-body { padding: 18px 18px 22px; }
@@ -254,11 +256,14 @@ p { margin: 0; }
   color: #f4efe6;
 }
 .story .eyebrow, .story p { color: #d7e4dc; }
-.story-logo img {
-  width: min(100%, 420px);
-  margin-inline: auto;
-  border-radius: 40% 40% 28px 28px;
-  background: #f6f1e8;
+.story-photo { margin: 0; }
+.story-photo img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: 50% 16%;
+  border-radius: 28px 28px 72px 28px;
+  box-shadow: var(--shadow);
 }
 .story-lead { font-size: 1.2rem; margin: 16px 0; color: #f4efe6 !important; }
 .facts {
