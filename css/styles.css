@@ -153,17 +153,15 @@ p { margin: 0; }
   box-shadow: var(--shadow);
 }
 .hero-frame figcaption {
-  position: absolute;
-  left: -28px;
-  bottom: 28px;
-  display: flex;
+  position: relative;
+  left: auto;
+  bottom: auto;
+  width: calc(100% - 24px);
+  max-width: none;
+  margin: -35px auto 0;
+  padding: 12px;
   gap: 12px;
-  align-items: center;
-  width: min(320px, 80%);
-  padding: 10px 14px 10px 10px;
-  background: var(--cream);
-  border-radius: 18px;
-  box-shadow: var(--shadow);
+  z-index: 2;
 }
 .hero-frame figcaption img {
   width: 64px;
